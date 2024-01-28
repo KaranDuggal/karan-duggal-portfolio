@@ -6,26 +6,16 @@
 					<h1>Hello! My name is</h1>
 				</div>
 				<div class="banner-title">
-					<h2>Florece Ann Robles.</h2>
-					<h3>I build digital platforms.</h3>
+					<h2>KARAN DUGGAL.</h2>
+					<h3>I build secure digital platforms.</h3>
 				</div>
 				<div class="banner-description">
 					<p [innerHTML]="'Banner.Description' | translate" class="mt-4"></p>
 				</div>
 			</div>
 			<div class="div-btn-banner">
-				<a
-					(click)="
-						analyticsService.sendAnalyticEvent(
-							'click_send_mail',
-							'banner',
-							'email'
-						)
-					"
-					href="mailto:annr.dev@gmail.com"
-					target="_black"
-					class="main-btn"
-				>
+				<!-- <a (click)="analyticsService.sendAnalyticEvent('click_send_mail','banner','email')" href="mailto:duggalkaran400@gmail.com" target="_black" class="main-btn" -- OLD CODE > -->
+				<a href="mailto:duggalkaran400@gmail.com" target="_black" class="main-btn" >
 					{{ "Banner.ActionBtn" | translate }}
 				</a>
 			</div>
