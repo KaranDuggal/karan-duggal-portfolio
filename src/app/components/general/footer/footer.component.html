@@ -2,79 +2,31 @@
 	<div [@animateFooter]>
 		<ul class="footer-left-bar d-none d-md-block">
 			<li>
-				<a
-					(click)="
-						analyticsService.sendAnalyticEvent(
-							'click_github',
-							'footer',
-							'github'
-						)
-					"
-					href="https://github.com/annrobles"
-					target="_blank"
-				>
+				<!-- <a (click)="analyticsService.sendAnalyticEvent('click_github','footer','github')" href="https://github.com/annrobles" target="_blank" > --OLD CODE -->
+				<a href="https://github.com/KaranDuggal" target="_blank" >
 					<i class="fab fa-github"></i>
 				</a>
 			</li>
 			<li>
-				<a
-					(click)="
-						analyticsService.sendAnalyticEvent(
-							'click_linkedin',
-							'footer',
-							'github'
-						)
-					"
-					href="https://www.linkedin.com/in/florece-robles/"
-					target="_blank"
-				>
+				<!-- <a (click)="analyticsService.sendAnalyticEvent('click_linkedin','footer','github')" href="https://www.linkedin.com/in/florece-robles/" target="_blank"> --OLD CODE -->
+				<a href="https://www.linkedin.com/in/florece-robles/" target="_blank">
 					<i class="fab fa-linkedin-in"></i>
 				</a>
 			</li>
 		</ul>
 		<div class="footer-right-bar d-none d-md-block">
-			<a
-				(click)="
-					analyticsService.sendAnalyticEvent(
-						'click_send_mail',
-						'footer',
-						'email'
-					)
-				"
-				href="mailto:annr.dev@gmail.com"
-				target="_blank"
-				>annr.dev@gmail.com
-			</a>
+			<!-- <a (click)="analyticsService.sendAnalyticEvent('click_send_mail','footer','email')" href="mailto:annr.dev@gmail.com" target="_blank" >annr.dev@gmail.com</a> --OLD CODE -->
+			<a href="mailto:duggalkaran400@gmail.com" target="_blank" >duggalkaran400@gmail.com</a>
 		</div>
 	</div>
 
 	<div class="footer-credits text-center">
-		<a
-			(click)="
-				analyticsService.sendAnalyticEvent(
-					'click_github_portfolio_florece',
-					'footer',
-					'click'
-				)
-			"
-			href="https://github.com/annrobles"
-			target="_blank"
-			rel="nofollow noopener noreferrer"
-		>
-			<div>Built with Angular by Florece Ann Robles</div>
+		<!-- <a (click)="analyticsService.sendAnalyticEvent('click_github_portfolio_florece','footer','click')" href="https://github.com/KaranDuggal" target="_blank" rel="nofollow noopener noreferrer"> -- OLD CODE -->
+		<a href="https://github.com/KaranDuggal" target="_blank" rel="nofollow noopener noreferrer">
+			<div>Built with Angular by Karan Duggal</div>
 		</a>
-		<a
-			(click)="
-				analyticsService.sendAnalyticEvent(
-					'click_github_portfolio_florece',
-					'footer',
-					'click'
-				)
-			"
-			href="https://annrobles.github.io/"
-			target="_blank"
-			rel="nofollow noopener noreferrer"
-		>
+		<!-- <a (click)="analyticsService.sendAnalyticEvent('click_github_portfolio_florece','footer','click')" href="https://annrobles.github.io/" target="_blank" rel="nofollow noopener noreferrer" > -- OLD CODE -->
+		<a href="https://github.com/KaranDuggal" target="_blank" rel="nofollow noopener noreferrer" >
 			<div class="mt-2">Designed by Brittany Chiang & Jośe Andreś</div>
 		</a>
 	</div>
